@@ -227,7 +227,6 @@ function renderPage() {
     renderAlefBeis();
     chooseLetters();
     calculate();
-    resetPage();
 }
 
 $(renderPage);
