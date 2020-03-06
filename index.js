@@ -177,6 +177,8 @@ function renderAlefBeis() {
             </li>
         `);
     });
+
+    $("#total").text(`${STORE.totalValue}`);
         
 
 
@@ -213,8 +215,11 @@ function resetPage() {
     // function listening for reset click. if clicked, chosen letter array is emptied, total value variable is reset to 0, 
     $("#button-reset").on("click", function() {
         STORE.totalValue = 0;
-        STORE.chosenLetters = [];
+        STORE.chosenLetters.splice(0,STORE.chosenLetters.length);
+
     })
+
+    renderAlefBeis();
 
 }
 
