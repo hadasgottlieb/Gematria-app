@@ -216,10 +216,13 @@ function resetPage() {
     $("#button-reset").on("click", function() {
         STORE.totalValue = 0;
         STORE.chosenLetters.splice(0,STORE.chosenLetters.length);
+        $("#total").text(STORE.totalValue);
+        $("#chosen-letter-list").empty();
+        $(calculate);
+
 
     })
 
-    renderAlefBeis();
 
 }
 
@@ -227,6 +230,7 @@ function renderPage() {
     renderAlefBeis();
     chooseLetters();
     calculate();
+    resetPage();
 }
 
 $(renderPage);
