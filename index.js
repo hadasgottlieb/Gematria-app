@@ -81,6 +81,13 @@ const STORE = {
         },
         {
             id: cuid(),
+            name: "Final Chof",
+            letter: "ך",
+            value: 20,
+
+        },
+        {
+            id: cuid(),
             name: "Lamed",
             letter: "ל",
             value: 30,
@@ -95,8 +102,22 @@ const STORE = {
         },
         {
             id: cuid(),
+            name: "Final Mem",
+            letter: "ם",
+            value: 40,
+
+        },
+        {
+            id: cuid(),
             name: "Nun",
             letter: "נ",
+            value: 50,
+
+        },
+        {
+            id: cuid(),
+            name: "Final Nun",
+            letter: "ן",
             value: 50,
 
         },
@@ -123,8 +144,22 @@ const STORE = {
         },
         {
             id: cuid(),
+            name: "Final Fey",
+            letter: "ף",
+            value: 80,
+
+        },
+        {
+            id: cuid(),
             name: "Tzadik",
             letter: "צ",
+            value: 90,
+
+        },
+        {
+            id: cuid(),
+            name: "Final Tzadik",
+            letter: "ץ",
             value: 90,
 
         },
