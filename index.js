@@ -220,7 +220,7 @@ function renderAlefBeis() {
 }
 
 function chooseLetters() {
-    console.log("chooseLetters ran.");
+    console.log("chooseLetters ran!");
     // function listening for letter click. if letter pressed, added to letter array, displayed in chosen letter box
     $(".letter-indiv").on("click", function() {
         let ident = $(this).data("item-id"); //that's the id of the li element
