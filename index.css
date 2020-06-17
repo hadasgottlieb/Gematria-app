@@ -1,5 +1,7 @@
 * {
     background-color: rgb(2, 44, 41);
+    font-family: 'Abel', sans-serif; 
+    font-weight: 100;
 }
 
 body {
@@ -78,7 +80,7 @@ body {
     border: 2px solid rgb(209, 235, 252);
     border-radius: 5px;
     text-decoration-style: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: inherit;
     font-size: 20px;
     padding: 15px;
     background-color: rgb(209, 235, 252);
@@ -89,13 +91,13 @@ body {
 
 #total {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: inherit;
     font-size: 30px;
     color: rgb(209, 235, 252);
 }
 
 h1, h2 {
     color:  rgb(209, 235, 252);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: inherit;
     text-align: center;
 }
